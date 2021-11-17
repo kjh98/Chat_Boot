@@ -5,5 +5,16 @@ spring:
       port: 27017
       database: chatdb
 
+  devtools:
+    livereload:
+      enabled: true
+
+  freemarker:
+    cache: false
+
+  thymeleaf:
+    cache: false
+
 server:
   port: 8081
+
