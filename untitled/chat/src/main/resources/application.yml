@@ -5,6 +5,7 @@ spring:
       port: 27017
       database: chatdb
 
+
   devtools:
     livereload:
       enabled: true
@@ -15,6 +16,18 @@ spring:
   thymeleaf:
     cache: false
 
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+
 server:
   port: 8081
+  servlet:
+    jsp:
+      init-parameters: true
+
+
+
+
 
